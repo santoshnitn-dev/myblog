@@ -1,0 +1,2 @@
+# myblog
+Hugo minimal website
