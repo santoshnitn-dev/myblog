@@ -2,96 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-12T01:35:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-second-post/</loc>
-    <lastmod>2025-03-12T01:35:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-12T01:35:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-03-12T01:32:27+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-dev-journal-v3/</loc>
+    <loc>//localhost:1313/posts/my-dev-journal-v3/</loc>
     <lastmod>2024-10-26T03:40:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-10-26T03:40:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/productivity/</loc>
     <lastmod>2024-10-26T03:40:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lc-1004/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-10-26T03:40:55+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-10-26T03:40:55+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/lc-1004/</loc>
     <lastmod>2024-08-09T23:52:13+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/leetcode/</loc>
+    <loc>//localhost:1313/tags/leetcode/</loc>
     <lastmod>2024-08-09T23:52:13+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/common-dev-tooling-quickref/</loc>
+    <loc>//localhost:1313/posts/common-dev-tooling-quickref/</loc>
     <lastmod>2024-07-28T19:00:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lessons/</loc>
+    <loc>//localhost:1313/tags/lessons/</loc>
     <lastmod>2024-07-11T23:23:50+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/newbie-tax-traps/</loc>
+    <loc>//localhost:1313/posts/newbie-tax-traps/</loc>
     <lastmod>2024-07-11T23:23:50+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-dev-journal-v2/</loc>
+    <loc>//localhost:1313/posts/my-dev-journal-v2/</loc>
     <lastmod>2024-07-11T01:35:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/util-cli-dict/</loc>
+    <loc>//localhost:1313/posts/util-cli-dict/</loc>
     <lastmod>2023-07-11T22:05:07+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/utility/</loc>
+    <loc>//localhost:1313/tags/utility/</loc>
     <lastmod>2023-07-11T22:05:07+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-dev-journal/</loc>
+    <loc>//localhost:1313/posts/my-dev-journal/</loc>
     <lastmod>2022-12-06T20:23:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/product-review-earpods/</loc>
+    <loc>//localhost:1313/posts/product-review-earpods/</loc>
     <lastmod>2021-09-25T21:36:45+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/product-reviews/</loc>
+    <loc>//localhost:1313/tags/product-reviews/</loc>
     <lastmod>2021-09-25T21:36:45+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-dotfile-favorites/</loc>
+    <loc>//localhost:1313/posts/my-dotfile-favorites/</loc>
     <lastmod>2021-09-25T15:58:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/til/</loc>
+    <loc>//localhost:1313/tags/til/</loc>
     <lastmod>2021-09-25T12:17:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/til-2/</loc>
+    <loc>//localhost:1313/posts/til-2/</loc>
     <lastmod>2021-09-25T12:17:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/weekend-read-1/</loc>
+    <loc>//localhost:1313/posts/weekend-read-1/</loc>
     <lastmod>2021-09-25T01:48:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/weekend-read/</loc>
+    <loc>//localhost:1313/tags/weekend-read/</loc>
     <lastmod>2021-09-25T01:48:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/apps/</loc>
+    <loc>//localhost:1313/tags/apps/</loc>
     <lastmod>2021-09-21T05:27:54+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/favorite-finance-apps/</loc>
+    <loc>//localhost:1313/posts/favorite-finance-apps/</loc>
     <lastmod>2021-09-21T05:27:54+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/money/</loc>
+    <loc>//localhost:1313/tags/money/</loc>
     <lastmod>2021-09-21T05:27:54+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/til-1/</loc>
+    <loc>//localhost:1313/posts/til-1/</loc>
     <lastmod>2021-09-20T12:32:57+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/things-i-wish-i-learnt-before-job/</loc>
+    <loc>//localhost:1313/posts/things-i-wish-i-learnt-before-job/</loc>
     <lastmod>2021-09-19T14:36:20+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2021-09-19T14:29:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>//localhost:1313/posts/first/</loc>
     <lastmod>2021-09-19T14:10:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>

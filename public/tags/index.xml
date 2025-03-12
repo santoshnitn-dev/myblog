@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Archie</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Archie</description>
+    <title>Tags on Santosh Kumar Gouda</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Santosh Kumar Gouda</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright>
+    <copyright>©santosh kumar gouda</copyright>
     <lastBuildDate>Sat, 26 Oct 2024 03:40:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Productivity</title>
-      <link>http://localhost:1313/tags/productivity/</link>
+      <link>//localhost:1313/tags/productivity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/productivity/</guid>
+      <guid>//localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Leetcode</title>
-      <link>http://localhost:1313/tags/leetcode/</link>
+      <link>//localhost:1313/tags/leetcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/leetcode/</guid>
+      <guid>//localhost:1313/tags/leetcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Lessons</title>
-      <link>http://localhost:1313/tags/lessons/</link>
+      <link>//localhost:1313/tags/lessons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lessons/</guid>
+      <guid>//localhost:1313/tags/lessons/</guid>
       <description></description>
     </item>
     <item>
       <title>Utility</title>
-      <link>http://localhost:1313/tags/utility/</link>
+      <link>//localhost:1313/tags/utility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/utility/</guid>
+      <guid>//localhost:1313/tags/utility/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-Reviews</title>
-      <link>http://localhost:1313/tags/product-reviews/</link>
+      <link>//localhost:1313/tags/product-reviews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/product-reviews/</guid>
+      <guid>//localhost:1313/tags/product-reviews/</guid>
       <description></description>
     </item>
     <item>
       <title>Til</title>
-      <link>http://localhost:1313/tags/til/</link>
+      <link>//localhost:1313/tags/til/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/til/</guid>
+      <guid>//localhost:1313/tags/til/</guid>
       <description></description>
     </item>
     <item>
       <title>Weekend-Read</title>
-      <link>http://localhost:1313/tags/weekend-read/</link>
+      <link>//localhost:1313/tags/weekend-read/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/weekend-read/</guid>
+      <guid>//localhost:1313/tags/weekend-read/</guid>
       <description></description>
     </item>
     <item>
       <title>Apps</title>
-      <link>http://localhost:1313/tags/apps/</link>
+      <link>//localhost:1313/tags/apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/apps/</guid>
+      <guid>//localhost:1313/tags/apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Money</title>
-      <link>http://localhost:1313/tags/money/</link>
+      <link>//localhost:1313/tags/money/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/money/</guid>
+      <guid>//localhost:1313/tags/money/</guid>
       <description></description>
     </item>
   </channel>

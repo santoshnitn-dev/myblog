@@ -1,30 +1,30 @@
-baseURL = "https://santoshnitn-dev.github.io/"
-languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Santosh Kumar Gouda'
+theme = 'archie'
+copyright = '©santosh kumar gouda'
+
 [params]
-	mode="auto"
-	useCDN=false
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	mode="auto" # color-mode → light,dark or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Random stuff and opinions"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/sgouda0412"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+url = "https://twitter.com/Gouda21K/"
 
 [[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/sgouda0412/"
+
+# Main menu Items
 
 [[menu.main]]
 name = "Home"
@@ -40,8 +40,3 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4

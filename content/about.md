@@ -11,4 +11,4 @@ A personal blog site has been a long time coming. After 6-7yrs of lying in my to
 
 ### How to get in touch?
 Social links at the bottom or:
-✉️  thejazeto [at] gmail [dot] com
+✉️  s.k.gouda21 [at] gmail [dot] com

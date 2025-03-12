@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Product-Reviews on Archie</title>
-    <link>http://localhost:1313/tags/product-reviews/</link>
-    <description>Recent content in Product-Reviews on Archie</description>
+    <title>Product-Reviews on Santosh Kumar Gouda</title>
+    <link>//localhost:1313/tags/product-reviews/</link>
+    <description>Recent content in Product-Reviews on Santosh Kumar Gouda</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright>
+    <copyright>©santosh kumar gouda</copyright>
     <lastBuildDate>Sat, 25 Sep 2021 21:36:45 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/product-reviews/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/product-reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Product Review: AirPod Pro vs Nothing ear(1)</title>
-      <link>http://localhost:1313/posts/product-review-earpods/</link>
+      <link>//localhost:1313/posts/product-review-earpods/</link>
       <pubDate>Sat, 25 Sep 2021 21:36:45 +0530</pubDate>
-      <guid>http://localhost:1313/posts/product-review-earpods/</guid>
+      <guid>//localhost:1313/posts/product-review-earpods/</guid>
       <description>I&amp;rsquo;ve owned the AirPod Pros for a little over a year and the Nothing ear(1) for about 2 weeks as of this writing. Below I share some personal experiences and opinions which may help in deciding if caught in a dillema between the two amazing products.&#xA;Official product links:&#xA;AirPods Pro Nothing ear(1) Let&amp;rsquo;s get started&amp;hellip;&#xA;Active Noise Cancellation (ANC) This is a close one at least in my ears. They both keep out noise pretty well.</description>
     </item>
   </channel>
