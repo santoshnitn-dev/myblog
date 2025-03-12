@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>TIL 1 - Archie</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Today I Learned a.k.a TIL
+FactoryBean An amazing way to instantiate your beans based on different situations or conditions.
+Example use case: I want a specific implementation of an interface based on some launch date. I can define that in the factory.
+public class MessageFactoryBean implements FactoryBean&lt;MessageInterface&gt; { private MessageInterface postcard; private MessageInterface letter; public MessageInterface getObject() { if (your condition here) { return letter; } return postcard; } // other methods omitted } Where MessageInterface is implemented by PostCard and FormalLetter." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/til-1/">
+  <meta property="og:site_name" content="Archie">
+  <meta property="og:title" content="TIL 1">
+  <meta property="og:description" content="Today I Learned a.k.a TIL
+FactoryBean An amazing way to instantiate your beans based on different situations or conditions.
+Example use case: I want a specific implementation of an interface based on some launch date. I can define that in the factory.
+public class MessageFactoryBean implements FactoryBean&lt;MessageInterface&gt; { private MessageInterface postcard; private MessageInterface letter; public MessageInterface getObject() { if (your condition here) { return letter; } return postcard; } // other methods omitted } Where MessageInterface is implemented by PostCard and FormalLetter.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-09-20T12:32:57+05:30">
+    <meta property="article:modified_time" content="2021-09-20T12:32:57+05:30">
+    <meta property="article:tag" content="Til">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="TIL 1">
+<meta name="twitter:description" content="Today I Learned a.k.a TIL
+FactoryBean An amazing way to instantiate your beans based on different situations or conditions.
+Example use case: I want a specific implementation of an interface based on some launch date. I can define that in the factory.
+public class MessageFactoryBean implements FactoryBean&lt;MessageInterface&gt; { private MessageInterface postcard; private MessageInterface letter; public MessageInterface getObject() { if (your condition here) { return letter; } return postcard; } // other methods omitted } Where MessageInterface is implemented by PostCard and FormalLetter.">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">Archie</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">TIL 1</h1>
+          <div class="meta">Posted on Sep 20, 2021</div>
+        </div>
+        
+        <section class="body">
+          <p><em>Today I Learned a.k.a TIL</em></p>
+<h2 id="factorybean">FactoryBean</h2>
+<p>An amazing way to instantiate your beans based on different situations or conditions.</p>
+<p>Example use case: I want a specific implementation of an interface based on some launch date. I can define that in the factory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MessageFactoryBean</span> <span style="color:#66d9ef">implements</span> FactoryBean<span style="color:#f92672">&lt;</span>MessageInterface<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> MessageInterface postcard;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> MessageInterface letter;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> MessageInterface <span style="color:#a6e22e">getObject</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (your condition here) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> letter;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> postcard;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// other methods omitted</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Where <code>MessageInterface</code> is implemented by <code>PostCard</code> and <code>FormalLetter</code>.</p>
+<p>References:</p>
+<ul>
+<li><a href="https://spring.io/blog/2011/08/09/what-s-a-factorybean">What is factory bean</a></li>
+<li><a href="https://stackoverflow.com/questions/34679026/conditional-ref-in-spring-beans">SO question where code snippet was taken</a></li>
+</ul>
+<h2 id="caffeinate">Caffeinate</h2>
+<p>Keep your mac from falling asleep</p>
+<ol>
+<li>Open terminal</li>
+<li>Run the command</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>caffeinate -d
+</span></span></code></pre></div><p>FYI it could stay awake without even blinking for centuries. At least in theory.</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/til">til</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/athul/archie" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a><a class="soc" href="https://twitter.com/athulcajay/" rel="me" title="Twitter"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#twitter" />
+</svg></a><a class="border"></a><a class="soc" href="https://gitlab.com/athul/" rel="me" title="GitLab"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#gitlab" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

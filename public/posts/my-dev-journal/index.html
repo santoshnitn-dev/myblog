@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>My Dev Journal (could be yours too) - Archie</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="If you read tech blogs you’ll come across articles stating how important how important it is to maintain a dev journal or bragging doc or what have you. Basically it’s just a doc where you track all that you have done, read, watched, etc.
+Your brain being a finite resource can only hold so much information. Over time you lose track of the code change you made, the valuable life advice you gave to that junior, some quote someone said over a meeting." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/my-dev-journal/">
+  <meta property="og:site_name" content="Archie">
+  <meta property="og:title" content="My Dev Journal (could be yours too)">
+  <meta property="og:description" content="If you read tech blogs you’ll come across articles stating how important how important it is to maintain a dev journal or bragging doc or what have you. Basically it’s just a doc where you track all that you have done, read, watched, etc.
+Your brain being a finite resource can only hold so much information. Over time you lose track of the code change you made, the valuable life advice you gave to that junior, some quote someone said over a meeting.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-12-06T20:23:12+05:30">
+    <meta property="article:modified_time" content="2022-12-06T20:23:12+05:30">
+    <meta property="article:tag" content="Productivity">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="My Dev Journal (could be yours too)">
+<meta name="twitter:description" content="If you read tech blogs you’ll come across articles stating how important how important it is to maintain a dev journal or bragging doc or what have you. Basically it’s just a doc where you track all that you have done, read, watched, etc.
+Your brain being a finite resource can only hold so much information. Over time you lose track of the code change you made, the valuable life advice you gave to that junior, some quote someone said over a meeting.">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">Archie</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">My Dev Journal (could be yours too)</h1>
+          <div class="meta">Posted on Dec 6, 2022</div>
+        </div>
+        
+        <section class="body">
+          <p>If you read tech blogs you’ll come across articles stating how important how important it is to maintain a dev journal or bragging doc or what have you. Basically it’s just a doc where you track all that you have done, read, watched, etc.</p>
+<p>Your brain being a finite resource can only hold so much information. Over time you lose track of the code change you made, the valuable life advice you gave to that junior, some quote someone said over a meeting. Okay that’s going overboard but you get the gist.</p>
+<p>I’ve tried all sorts of things. Tried one too many note apps, todo apps, methods, processes and tricks. Non seem to work. Having tried all those, now I think I have come up with my own thing. Which seems to be working pretty well.</p>
+<h2 id="what-youll-need">What you’ll need</h2>
+<ul>
+<li>Terminal</li>
+<li>Shell scripts for cronjobs to execute
+<ul>
+<li>Daily script</li>
+<li>Monthly script</li>
+</ul>
+</li>
+<li>Cron jobs
+<ul>
+<li>Daily job</li>
+<li>Monthly job</li>
+</ul>
+</li>
+<li>Bash alias
+<ul>
+<li>To add a log line</li>
+<li>To view (optional)</li>
+</ul>
+</li>
+</ul>
+<p>The list looks long but it’s pretty simple. Just verbose for the sake of this blog.</p>
+<h2 id="the-setup">The setup</h2>
+<h3 id="1-single-markdown-file-to-log">1) Single markdown file to log</h3>
+<p>Create and save it in a path of your choosing. Eg: <code>/&lt;bunch_of_directories&gt;/daily_log.md</code></p>
+<h3 id="2-markdown-file-structure">2) Markdown file structure</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># January 2022
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>## 16 Monday
+</span></span><span style="display:flex;"><span>- did this
+</span></span><span style="display:flex;"><span>- did that
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>## 17 Tuesday
+</span></span><span style="display:flex;"><span>- did this again
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># February 2022
+</span></span><span style="display:flex;"><span>...so on
+</span></span></code></pre></div><h3 id="3-shell-scripts">3) Shell scripts</h3>
+<p>Daily header:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>now=$(date +&#34;%d %A&#34;)
+</span></span><span style="display:flex;"><span>echo &#34;\n## $now&#34; &gt;&gt; /&lt;bunch_of_directories&gt;/daily_log.md
+</span></span></code></pre></div><p>Monthly header:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>month=$(date +&#34;%B %Y&#34;)
+</span></span><span style="display:flex;"><span>echo &#34;\n# $month&#34; &gt;&gt; /&lt;bunch_of_directories&gt;/daily_log.md
+</span></span></code></pre></div><h3 id="4-cron-jobs">4) Cron jobs</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>0 10 * * 1-5 ~/code/cronjobs/new_log_day.sh
+</span></span><span style="display:flex;"><span>0 0 1 * * ~/code/cronjobs/new_log_month.sh
+</span></span></code></pre></div><p>Line 1 adds a new day header. At 10AM from Mon-Fri.</p>
+<p>Line 2 adds a new month header. On 1st of every month.</p>
+<h3 id="5-bash-aliases">5) Bash aliases</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>alias slog=&#39;bat ~/notes/worklog.md&#39;
+</span></span><span style="display:flex;"><span>alias clog=&#39;echo &#34;- $1&#34; &gt;&gt; ~/notes/worklog.md&#39;
+</span></span></code></pre></div><p>Line 1 shows current daily log state.</p>
+<p>Line 2 adds a log line for the day.</p>
+<h2 id="usage">Usage</h2>
+<p>So if I did thing X. Switch to the open terminal and quickly type in:</p>
+<blockquote>
+<p><code>$ clog “I did thing X”</code></p>
+</blockquote>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/productivity">productivity</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/athul/archie" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a><a class="soc" href="https://twitter.com/athulcajay/" rel="me" title="Twitter"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#twitter" />
+</svg></a><a class="border"></a><a class="soc" href="https://gitlab.com/athul/" rel="me" title="GitLab"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#gitlab" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

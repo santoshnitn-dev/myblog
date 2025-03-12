@@ -1,7 +1,6 @@
-+++
-title = 'New Blog'
-date = 2025-03-12T14:50:40+05:30
-draft = false
-+++
+---
+title: "New Blog"
+date: 2025-03-12T01:12:07+05:30
+draft: true
+---
 
-Welcome to my .vimrc

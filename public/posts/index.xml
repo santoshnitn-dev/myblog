@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Wed, 12 Mar 2025 14:50:40 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 01:35:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>New Blog</title>
-      <link>http://localhost:1313/posts/new-blog/</link>
-      <pubDate>Wed, 12 Mar 2025 14:50:40 +0530</pubDate>
-      <guid>http://localhost:1313/posts/new-blog/</guid>
-      <description>Welcome to my vimrc</description>
-    </item>
     <item>
       <title>My Second Post</title>
       <link>http://localhost:1313/posts/my-second-post/</link>
@@ -29,6 +22,111 @@
       <pubDate>Wed, 12 Mar 2025 01:32:27 +0530</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Hello World</description>
+    </item>
+    <item>
+      <title>My Dev Journal V3</title>
+      <link>http://localhost:1313/posts/my-dev-journal-v3/</link>
+      <pubDate>Sat, 26 Oct 2024 03:40:55 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-dev-journal-v3/</guid>
+      <description>Refer blogs for v1 and v2 for more history about this&#xA;And here&amp;rsquo;s a reminder on how important it is to document: https://jvns.ca/blog/brag-documents/&#xA;Dev journal v2 has done a pretty good job for me. I recently also added a functionality on my windows laptop to sync it up to a cloud storage (onedrive) via a windows automation scheduler called &amp;ldquo;Task Scheduler&amp;rdquo; at regular intervals of the day. I gotta say it&amp;rsquo;s pretty neat feature which I didn&amp;rsquo;t know about.</description>
+    </item>
+    <item>
+      <title>LC: 1004</title>
+      <link>http://localhost:1313/posts/lc-1004/</link>
+      <pubDate>Fri, 09 Aug 2024 23:52:13 +0530</pubDate>
+      <guid>http://localhost:1313/posts/lc-1004/</guid>
+      <description>I was trying to solve this leetcode problem and had to refer the solutions after some minutes attempting it. Then came across this super simple ingenious solution. Took a lot of time trying to wrap my head around it. So I thought I&amp;rsquo;d just share my thought process was like trying to digest this super simple looking yet miraculous code:&#xA;Max consecutive ones iii Link: https://leetcode.com/problems/max-consecutive-ones-iii&#xA;Note: you&amp;rsquo;ll need basic understanding of what this problem is asking for and may a preliminary very high level overview of the code flow</description>
+    </item>
+    <item>
+      <title>Common Dev Tooling Quickref</title>
+      <link>http://localhost:1313/posts/common-dev-tooling-quickref/</link>
+      <pubDate>Sun, 28 Jul 2024 19:00:55 +0530</pubDate>
+      <guid>http://localhost:1313/posts/common-dev-tooling-quickref/</guid>
+      <description>Some useful commands for some common dev tools. Assumption is that the reader is already familiar with the tools.&#xA;Vim Replace all instances: %s/orignal/replacement/g Get sudo write after entering vim without sudo :w !sudo tee % See filename ctrl + g Delete lines matching pattern :g/&amp;lt;pattern&amp;gt;/d` (remove /d if only to show patterns) Highlight multiple patterns :/\vpattern1|pattern2|… Go to bottom of match GN Got to top of match ggn Set and unset line numbers and relative numbers inside vim :set nu rnu :set nonu nornu Show x out of y count for searches :set shormess-=S Terminal save output to file/code $ &amp;lt;command&amp;gt; 2&amp;gt;&amp;amp;1 | tee file.</description>
+    </item>
+    <item>
+      <title>Newbie Tax Traps</title>
+      <link>http://localhost:1313/posts/newbie-tax-traps/</link>
+      <pubDate>Thu, 11 Jul 2024 23:23:50 +0530</pubDate>
+      <guid>http://localhost:1313/posts/newbie-tax-traps/</guid>
+      <description>Taxes! Something you learn on the field often after it&amp;rsquo;s too late. Here are some things I wish someone told me.&#xA;⚠️Disclaimer: These are just words cooked up from my head and not definitive or exact. More like recalling stories from personal experience. The details I&amp;rsquo;ll leave it to you and google or CA.&#xA;1) Reporting your mid FY job change TL;DR report your previous employer as soon as you join new company</description>
+    </item>
+    <item>
+      <title>My Dev Journal V2</title>
+      <link>http://localhost:1313/posts/my-dev-journal-v2/</link>
+      <pubDate>Thu, 11 Jul 2024 01:35:41 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-dev-journal-v2/</guid>
+      <description>Since the first blog on a dev journal here, I&amp;rsquo;ve made some changes.&#xA;With the onset of LLMs I&amp;rsquo;ve gotten help from chatGPT to upgrade my dev journal workflow.&#xA;Some things that have not changed are the log markdown file(daily_log.md) where your logs go into and the alias names.&#xA;Things that have changed:&#xA;1) Shell script Instead of having a cron job update the daily dates and month headers on a set time, which can and will fail to run if your machine is not ON at the time of cron schedule.</description>
+    </item>
+    <item>
+      <title>Util: CLI Dictionary</title>
+      <link>http://localhost:1313/posts/util-cli-dict/</link>
+      <pubDate>Tue, 11 Jul 2023 22:05:07 +0530</pubDate>
+      <guid>http://localhost:1313/posts/util-cli-dict/</guid>
+      <description>I end up having to lookup certain words which I&amp;rsquo;m not familiar with often and even though spotlight(macOS) provides quick lookup sometimes it mixes up with other files or OS related applications.&#xA;So if you are someone who finds yourself in the terminal most of your days this will be helpful.&#xA;What you&amp;rsquo;ll need Terminal curl CLI tool (which is inbuilt in most cases) jq CLI command (google &amp;ldquo;how to install jq in your_os) That&amp;rsquo;s it!</description>
+    </item>
+    <item>
+      <title>My Dev Journal (could be yours too)</title>
+      <link>http://localhost:1313/posts/my-dev-journal/</link>
+      <pubDate>Tue, 06 Dec 2022 20:23:12 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-dev-journal/</guid>
+      <description>If you read tech blogs you’ll come across articles stating how important how important it is to maintain a dev journal or bragging doc or what have you. Basically it’s just a doc where you track all that you have done, read, watched, etc.&#xA;Your brain being a finite resource can only hold so much information. Over time you lose track of the code change you made, the valuable life advice you gave to that junior, some quote someone said over a meeting.</description>
+    </item>
+    <item>
+      <title>Product Review: AirPod Pro vs Nothing ear(1)</title>
+      <link>http://localhost:1313/posts/product-review-earpods/</link>
+      <pubDate>Sat, 25 Sep 2021 21:36:45 +0530</pubDate>
+      <guid>http://localhost:1313/posts/product-review-earpods/</guid>
+      <description>I&amp;rsquo;ve owned the AirPod Pros for a little over a year and the Nothing ear(1) for about 2 weeks as of this writing. Below I share some personal experiences and opinions which may help in deciding if caught in a dillema between the two amazing products.&#xA;Official product links:&#xA;AirPods Pro Nothing ear(1) Let&amp;rsquo;s get started&amp;hellip;&#xA;Active Noise Cancellation (ANC) This is a close one at least in my ears. They both keep out noise pretty well.</description>
+    </item>
+    <item>
+      <title>My Dotfile Favorites</title>
+      <link>http://localhost:1313/posts/my-dotfile-favorites/</link>
+      <pubDate>Sat, 25 Sep 2021 15:58:55 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-dotfile-favorites/</guid>
+      <description>Dotfiles are used to customize your system. The “dotfiles” name is derived from the configuration files in Unix-like systems that start with a dot (e.g. .bash_profile and .gitconfig). In this post I will share some of my most used configurations for some common dotfiles.&#xA;.zshrc greph () { fc -ln 0 | grep --color=auto $1 | awk &amp;#39;!seen[$0]++&amp;#39; | sed -e &amp;#39;s/^/&amp;gt;&amp;gt; /&amp;#39; } I love this one. Probably my favorite in this dotfile.</description>
+    </item>
+    <item>
+      <title>TIL 2</title>
+      <link>http://localhost:1313/posts/til-2/</link>
+      <pubDate>Sat, 25 Sep 2021 12:17:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/til-2/</guid>
+      <description>jq command A command to manipulate json files. At work we usually have a bunch json serialized ouputs in S3 or some other datastore, which are absurdly many lines long and deeply nested. Often, if I need to grep something out of it, I&amp;rsquo;ll just copy and paste it to a company internal json prettifier to make it human readable and get what I need. There must be some out on the web too.</description>
+    </item>
+    <item>
+      <title>Weekend Read 1</title>
+      <link>http://localhost:1313/posts/weekend-read-1/</link>
+      <pubDate>Sat, 25 Sep 2021 01:48:04 +0530</pubDate>
+      <guid>http://localhost:1313/posts/weekend-read-1/</guid>
+      <description>Articles Thread pools in JVM CPU bound, Blocking and Non-blocking CPU bound should have threads at max equal to no of CPU Blocking IO operations should never be allowed on the CPU bound pool They need to go to separate pool Async IO polls (non blocking) should be handled by very small number of fixed, pre-allocated threads These just sit idle asking kernel continually if any new async IO notification is available then forward to rest of application Never do any work on this thread pool.</description>
+    </item>
+    <item>
+      <title>Favorite Finance Apps</title>
+      <link>http://localhost:1313/posts/favorite-finance-apps/</link>
+      <pubDate>Tue, 21 Sep 2021 05:27:54 +0530</pubDate>
+      <guid>http://localhost:1313/posts/favorite-finance-apps/</guid>
+      <description>Bank apps The banks own apps to manage accounts. For the purposes of checking statements. Basic banking. CRED For tracking my credit cards and their due dates so that I don&amp;rsquo;t miss anything. It also gives a very nice visual of the statements for the billing cycles. The raw PDFs generated by banks are too unorganized and hard to read. INDmoney Tracking all my assets and liabilities. All my investments, stocks, EPF, savings and insurances get tracked here.</description>
+    </item>
+    <item>
+      <title>TIL 1</title>
+      <link>http://localhost:1313/posts/til-1/</link>
+      <pubDate>Mon, 20 Sep 2021 12:32:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/til-1/</guid>
+      <description>Today I Learned a.k.a TIL&#xA;FactoryBean An amazing way to instantiate your beans based on different situations or conditions.&#xA;Example use case: I want a specific implementation of an interface based on some launch date. I can define that in the factory.&#xA;public class MessageFactoryBean implements FactoryBean&amp;lt;MessageInterface&amp;gt; { private MessageInterface postcard; private MessageInterface letter; public MessageInterface getObject() { if (your condition here) { return letter; } return postcard; } // other methods omitted } Where MessageInterface is implemented by PostCard and FormalLetter.</description>
+    </item>
+    <item>
+      <title>Things I wish I learnt before getting a job</title>
+      <link>http://localhost:1313/posts/things-i-wish-i-learnt-before-job/</link>
+      <pubDate>Sun, 19 Sep 2021 14:36:20 +0530</pubDate>
+      <guid>http://localhost:1313/posts/things-i-wish-i-learnt-before-job/</guid>
+      <description>Disclaimer: there is only so much you can prepare in advance. You’ll mostly learn everything on the job itself but I think there are some learnings which can take off the load. Instead of trying to play catch up while on the job.&#xA;Most of the big tech companies have in-house tooling which is a beast in itself to learn (depending on the company and how much internal tools they own).</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Sun, 19 Sep 2021 14:10:19 +0530</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>Hello world</description>
     </item>
   </channel>
 </rss>
